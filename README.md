@@ -33,6 +33,12 @@ Mapping     | Command               | Description
 `<Leader>i` | `:ImportJSFix`        | Import any missing modules and remove any modules that are not used.
 `<Leader>g` | `:ImportJSGoto`       | Go to the module of the variable under the cursor.
 
+To disable default mappings:
+
+```vim
+let g:importjs_disable_default_mappings = 1
+```
+
 ## Configuration
 For `import-js` configuration see https://github.com/Galooshi/import-js#configuration
 
